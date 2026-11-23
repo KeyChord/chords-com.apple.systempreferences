@@ -1,0 +1,24 @@
+{
+  "name": "@keychord/chords-com.apple.systempreferences",
+  "displayName": "System Preferences Chords",
+  "version": "0.0.1",
+  "description": "Open system settings panels on macOS, GNOME on Linux, and Windows.",
+  "categories": [
+    "macOS"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/KeyChord/chords-com.apple.systempreferences"
+  },
+  "type": "module",
+  "scripts": {
+    "test": "bun test --isolate"
+  },
+  "devDependencies": {
+    "@keychord/chordtest": "workspace:*",
+    "@keychord/config": "catalog:",
+    "@keychord/tsconfig": "catalog:",
+    "@types/bun": "latest"
+  },
+  "packageManager": "pnpm@12.11.2"
+}
